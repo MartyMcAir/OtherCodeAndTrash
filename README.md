@@ -12,6 +12,7 @@ here are some code samples from everywhere and other garbage
 *) sun jndi providerutil
 *) jaxb api 2.3.0
 
+*) Maven 3.0
 *) Windows 10
 
 IntelliJ IDEA 2018.3.2 (Community Edition)
