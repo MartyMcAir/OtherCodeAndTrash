@@ -11,6 +11,9 @@ here are some code samples from everywhere and other garbage
 *) commons dbcp 1.4
 *) sun jndi providerutil
 *) jaxb api 2.3.0
+*) SLF4J API Module » 1.7.30
+*) jUnit 4.12
+*) javaFX 15
 
 *) Maven 3.0
 *) Windows 10

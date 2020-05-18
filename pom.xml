@@ -3,7 +3,18 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+
     <packaging>pom</packaging>
+    <groupId>org.example</groupId>
+    <artifactId>OtherCodeAndTrash</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <modules>
+        <module>FromBooks</module>
+        <module>MyTrash</module>
+        <module>OtherTrash</module>
+        <module>BekKentJunit</module>
+    </modules>
 
     <build>
         <plugins>
@@ -17,15 +28,52 @@
             </plugin>
         </plugins>
     </build>
-    <modules>
-        <module>FromBooks</module>
-        <module>MyTrash</module>
-        <module>OtherTrash</module>
-    </modules>
 
-    <groupId>org.example</groupId>
-    <artifactId>OtherCodeAndTrash</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <dependencies>
+        <!-- LOGGING -->
+        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.30</version>
+        </dependency>
 
-
+        <!-- JAVA FX -->
+        <!-- https://mvnrepository.com/artifact/org.openjfx/javafx-base -->
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-base</artifactId>
+            <version>15-ea+5</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.openjfx/javafx-fxml -->
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-fxml</artifactId>
+            <version>15-ea+5</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.openjfx/javafx-graphics -->
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-graphics</artifactId>
+            <version>15-ea+5</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.openjfx/javafx-controls -->
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-controls</artifactId>
+            <version>15-ea+5</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.openjfx/javafx-swing -->
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-swing</artifactId>
+            <version>15-ea+5</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.openjfx/javafx-media -->
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-media</artifactId>
+            <version>15-ea+5</version>
+        </dependency>
+    </dependencies>
 </project>
