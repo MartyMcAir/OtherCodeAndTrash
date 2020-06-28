@@ -105,7 +105,6 @@ local.properties
 # .idea/modules.xml
 # .idea/*.iml
 # .idea/modules
-# *.iml
 # *.ipr
 
 # CMake
@@ -262,7 +261,7 @@ gen-external-apklibs
 obj/
 
 # IntelliJ IDEA
-*.iml
+# *.iml
 /out/
 
 # User-specific configurations

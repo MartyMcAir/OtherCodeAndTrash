@@ -49,7 +49,8 @@ public class Solution {
                 int resDate = ((Date) stock2.get("date")).compareTo((Date) stock1.get("date"));
                 int resProfit = 0;
 
-                if (resName != 0) { // если по имени сортировка НЕ complete
+                if (resName != 0) { // если по имени
+                    // сортировка НЕ complete
                     res = resName;
                 } else if (resDate == 0) { // если по дате сортировка complete
                     // по прибыли от положителных к отрицат
