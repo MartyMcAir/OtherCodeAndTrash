@@ -8,7 +8,6 @@ package GUI_SingleFiles;
 import javax.swing.*;
 
 /**
- *
  * @author MartyMcAir
  */
 public class Buttons extends JFrame {
@@ -19,14 +18,16 @@ public class Buttons extends JFrame {
 //	ClassLoader ldr = this.getClass().getClassLoader();
 //	java.net.URL tickURL = ldr.getResource("tick.png");
 //	java.net.URL crossURL = ldr.getResource("cross.png");
-    
+
     // Подгружаем изображения для кнопок
-//    ImageIcon tick = new ImageIcon("events.png"); // tесли  находится в корневой папке проекта
+//    ImageIcon tick = new ImageIcon("events.png"); // t если  находится в корневой папке проекта
     // полный путь
 //    ImageIcon tick = new ImageIcon("C:\\z_n\\Dropbox\\GitHub\\myCodeExamples\\myCodeExamples\\build\\classes\\GUI_SingleFiles\\events.png");
 // путь до картинки относительно корневой папки проекта, взависимсоти от то го, где находится проект
-    ImageIcon tick = new ImageIcon(".\\build\\classes\\GUI_SingleFiles\\events.png"); 
-    ImageIcon cross = new ImageIcon(".\\build\\classes\\GUI_SingleFiles\\addEvent.png");
+    ImageIcon tick = new ImageIcon("/events.png");
+    ImageIcon cross = new ImageIcon("/addEvent.png");
+//    ImageIcon tick = new ImageIcon(".\\build\\classes\\GUI_SingleFiles\\events.png");
+//    ImageIcon cross = new ImageIcon(".\\build\\classes\\GUI_SingleFiles\\addEvent.png");
 
     //ImageIcon tick = new ImageIcon( "tick.png" );
     //ImageIcon cross = new ImageIcon( "cross.png" );
