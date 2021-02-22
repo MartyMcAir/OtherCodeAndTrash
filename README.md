@@ -1,7 +1,7 @@
 # Other Code And Trash
 Some code samples from everywhere and other garbage
 
-![](https://github.com/MartyMcAir/-WebApps-Experimental-/blob/master/WebAppByServlets/web/WEB-INF/img/MainPage.png)
+![](https://github.com/MartyMcAir/OtherCodeAndTrash/blob/master/feynman_1123_629.png)
 
 ## Information about the system and editors used:
 
