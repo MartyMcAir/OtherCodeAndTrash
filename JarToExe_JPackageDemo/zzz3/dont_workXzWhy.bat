@@ -1,0 +1,1 @@
+jpackage --input . --name MyExe --main-jar MyJar.jar --main-class DemoApp --type exe --java-options '--enable-preview' --win-shortcut

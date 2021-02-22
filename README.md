@@ -1,6 +1,8 @@
 # Other Code And Trash
 Some code samples from everywhere and other garbage
 
+![](https://github.com/MartyMcAir/-WebApps-Experimental-/blob/master/WebAppByServlets/web/WEB-INF/img/MainPage.png)
+
 ## Information about the system and editors used:
 
 - utf 8 encoding

@@ -1,0 +1,6 @@
+jpackage --input target/ \
+  --name JPackageDemoApp \
+  --main-jar JPackageDemoApp.jar \
+  --main-class JPackageDemoApp \
+  --type exe \
+  --java-options '--enable-preview'

@@ -1,0 +1,1 @@
+jpackage --input . --name MyExeFile --main-jar MyJarFile.jar --main-class pathToMainClassFromManifest --type exe --java-options '--enable-preview' --win-shortcut

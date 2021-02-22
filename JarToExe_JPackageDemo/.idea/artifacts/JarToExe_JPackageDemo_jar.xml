@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="JarToExe_JPackageDemo:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JarToExe_JPackageDemo_jar</output-path>
+    <root id="archive" name="JarToExe_JPackageDemo.jar">
+      <element id="module-output" name="JarToExe_JPackageDemo" />
+    </root>
+  </artifact>
+</component>
