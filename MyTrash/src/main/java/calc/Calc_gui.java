@@ -8,7 +8,6 @@ package calc;
 import javax.swing.*;
 
 /**
- *
  * @author MartyMcAir
  */
 public class Calc_gui {
@@ -47,6 +46,7 @@ public class Calc_gui {
         JOptionPane.showMessageDialog(null, "Результат умножения: " + obj.multiply());
 
     }
+
     // Поля класса
     // фактически просто переменные класса или ссылки на другие объекты
     int data;
