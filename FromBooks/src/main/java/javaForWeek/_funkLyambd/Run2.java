@@ -9,7 +9,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 /**
- *
  * @author MartyMcAir
  */
 public class Run2 {
@@ -30,7 +29,7 @@ public class Run2 {
 
         int[] nums = {2, 3, 4, 5, 6, 7, 8, 9};
         System.out.println(Arrays.toString(nums));
-        
+
         // Отправляем методу getArr(), лямбду в качестве параметра
         // Ссылке term1 как и другим, им уже присвоенны необходимые лямбды
         // И она является объектом необходимого интерфейса, а потому 

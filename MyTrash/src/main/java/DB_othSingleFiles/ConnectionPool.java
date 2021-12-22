@@ -17,12 +17,13 @@ import java.util.Vector;
 public class ConnectionPool {
 
     public static void main(String[] args) throws SQLException {
-
         ConnectionPool cnt = new ConnectionPool("jdbc:mysql://localhost:3310/z_test?characterEncoding=utf8&databaseName=z_test&username=test_user&password=123689&ServerTimezone=UTC&UseSSL=false&VerifyServerCertificate=false", "com.mysql.cj.jdbc.Driver", 1);
         Connection cn = cnt.retrieve();
+
         //cnt.putback(Connection cn);
         //cn.close();
     }
+
     // Первый будет содержать список доступных для использования соединений, 
     //второй список используемых в любой момент времени.
     private Vector<Connection> availableConns = new Vector<Connection>();
