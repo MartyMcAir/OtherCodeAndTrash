@@ -1,9 +1,11 @@
+*.exe
+**/.allure
+**/.idea
+**/.target
+**/allure-results
 
 # Created by https://www.gitignore.io/api/maven,gradle,eclipse,intellij,netbeans,androidstudio,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=maven,gradle,eclipse,intellij,netbeans,androidstudio,visualstudiocode
-
-# My files for skip #
-*.exe
 
 ### Eclipse ###
 .metadata
